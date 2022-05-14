@@ -1,5 +1,7 @@
-*.a
-*.d
-*.o
 *.out
-bin/geom
+*.o
+*.d
+*.a
+*.exe
+bin/*
+main
