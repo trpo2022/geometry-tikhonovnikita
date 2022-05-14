@@ -5,5 +5,3 @@
 int Space(const int str_lenght, char str[], int i);
 float Square(float r);
 float Perimetr(float r);
-
-#endif  //  _FUNCTIONS_H_
