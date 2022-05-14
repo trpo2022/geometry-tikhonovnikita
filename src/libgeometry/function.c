@@ -6,25 +6,28 @@
 #include <stdlib.h>
 #include <string.h>
 float PI = 3.14159265358979323846;
-int Space(const int str_lenght, char str[], int i) {
-  for (; i < str_lenght; i++) {
-    if (str[i] == ' ') {
-      continue;
-    } else {
-      break;
+int Space(const int str_lenght, char str[], int i)
+{
+    for (; i < str_lenght; i++) {
+        if (str[i] == ' ') {
+            continue;
+        } else {
+            break;
+        }
     }
-  }
-  return i;
+    return i;
 }
 
-float Square(float r) {
-  float S;
-  S = PI * r * r;
-  return S;
+float Square(float r)
+{
+    float S;
+    S = PI * r * r;
+    return S;
 }
 
-float Perimetr(float r) {
-  float P;
-  P = 2 * PI * r;
-  return P;
+float Perimetr(float r)
+{
+    float P;
+    P = 2 * PI * r;
+    return P;
 }
